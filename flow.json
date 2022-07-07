@@ -27,11 +27,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 560,
+        "x": 420,
         "y": 200,
         "wires": [
             [
-                "769712c9.5bf3bc"
+                "e9646d22.2494e"
             ]
         ]
     },
@@ -60,5 +60,24 @@
         "x": 530,
         "y": 100,
         "wires": []
+    },
+    {
+        "id": "e9646d22.2494e",
+        "type": "function",
+        "z": "86ae6559.4b16b8",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 200,
+        "wires": [
+            [
+                "769712c9.5bf3bc"
+            ]
+        ]
     }
 ]
