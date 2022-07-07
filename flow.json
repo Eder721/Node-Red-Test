@@ -50,5 +50,15 @@
         "x": 840,
         "y": 200,
         "wires": []
+    },
+    {
+        "id": "59763adb92507ddd",
+        "type": "comment",
+        "z": "86ae6559.4b16b8",
+        "name": "Test project",
+        "info": "",
+        "x": 530,
+        "y": 100,
+        "wires": []
     }
 ]
